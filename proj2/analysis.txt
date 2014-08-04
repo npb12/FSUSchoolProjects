@@ -1,0 +1,26 @@
+The following code is my reverse function:
+
+1     struct node *temp = NULL;  
+2     struct node *current = head_ref;
+3      
+4     
+5      
+6     while (current !=  NULL)
+7     {
+8        temp = current->prev;
+9        current->prev = current->next;
+10       current->next = temp;              
+11       current = current->prev;
+12    }      
+13      
+14     if(temp != NULL )
+15        head_ref = temp->prev;
+
+Lines 1 and 2 account for one unit each  (2)
+line 6 accounts for N+1 for all tests    (N+1)
+lines 8-11 account for 1 and executed N times (4N)
+line 14 and 15 also account for 1 apiece (2) 
+
+
+results in total of 5N+5
+resulting in O(N)
