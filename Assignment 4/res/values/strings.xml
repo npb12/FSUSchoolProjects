@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment 4</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">FEAR THE SPEAR</string>
+    <string name="warchant">FSU War Chant</string>
+    <string name="fight">FSU Fight Song</string>
+    <string name="victory">FSU Victory Song</string>
+    <string name="colors">Gold and Garnett</string>
+    <string name="cheer">FSU Cheer</string>
+    <string name="fanfare">4th Quarter Fanfare</string>
+    <string name="uprising">Seminole Uprising</string>
+    <string name="stop">STOP</string>
+    
+
+</resources>
