@@ -1,0 +1,19 @@
+Our app: "Add sensor app" was originally intended to incorporate the camera and count the amount of fingers being shown, but we had difficulties with the opencv library and testing on our device so we chose to move on to something similar, but not using the opencv library. 
+
+This app using the ontouch multi-touch library, has two modes:
+
+1) The dashboard- User is able to touch the screen with X amount of fingers and the app responds with the amount of fingers currently touching the screen along graphical colored circles, pin pointing the spots where the screen is being touched
+
+2) Play- The user is continously given a random number between 1 and 5 and should respond with tapping the screen with the same amount of fingers as the number. The point of the game is to do this as many times as possible without messing up, within 30 seconds. The user is given its streak for the end round at the end of the game.
+
+We'ev used this tutorial: http://www.vogella.com/tutorials/AndroidTouch/article.html for adding the colored graphics to our multi touch, specifically in MultitouchView.java. The rest of the code was implemented by the team through researching the android developers website. 
+
+Since this is an app that cannot be tested on an emulator, we've included a youtube demonstration of our app in action:
+
+
+
+
+
+
+
+
