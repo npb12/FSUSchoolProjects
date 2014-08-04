@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="title">Rock Paper Spear</string>
+      <string name="player_1">Player vs Computer</string>
+      <string name="rock">Rock</string>
+      <string name="paper">Paper</string>
+      <string name="scissor">Scissor</string>
+      <string name="message">Choose one of the buttons listed below:</string>
+
+</resources>
