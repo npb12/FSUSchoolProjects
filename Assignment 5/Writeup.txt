@@ -1,0 +1,5 @@
+I included my ad into assignment 3, because it was a game that could easily be counted for the number of times the user participated in the game. Every 10 games the Ad will pop up. My header ad (not footer, because that's where all my text information is) pops up with text explaining the attached link, along with a giant dismiss button. I think if someone is interested in clicking the link they will, but if a person is not interested, it makes it easier for this person to exit the ad without being annoyed.
+
+I used this feature in one function (launchPopup() in mainActivity.java) and one xml file popup.xml to control the styling of the popup. The function can easily be placed and called in any class needed and it's styling is independent of the activity_main.xml. I feel 10 games isn't too instrusive. If you're playing the game enough and it's free, you couldn't really complain.
+
+ 

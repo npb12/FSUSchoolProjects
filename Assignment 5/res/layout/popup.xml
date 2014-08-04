@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/background_light">
+ <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="100dp"
+     android:orientation="vertical" 
+     android:layout_margin="1dp"
+     android:background="@android:color/darker_gray">
+     >
+     <LinearLayout 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical" 
+      android:layout_margin="5dp">
+      <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="Click to learn about the FSU CS Department" />
+    <TextView
+    android:text=" http://www.cs.fsu.edu/ "
+    android:id="@+id/TextView01"
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"
+    android:autoLink="web"
+    android:linksClickable="true">
+    </TextView>
+      <Button
+          android:id="@+id/dismiss"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:text="Dismiss" />
+      </LinearLayout>
+ </LinearLayout>
+</LinearLayout>
